@@ -1,0 +1,86 @@
+{   
+    "page":{
+        "Introduce":{
+            "name": "Giới Thiệu",
+            "link": "/",
+            "id": "gioithieu"
+        },
+        "Members":{
+            "name": "Thành Viên",
+            "link": "/Members",
+            "id": "thanhvien"
+        },
+        "Activities":{
+            "name": "Hoạt Động",
+            "link": "/Hoatdong",
+            "id": "hoatdong"
+        },
+        "Purposes":{
+            "name": "Định Hướng",
+            "link": "/Dinhhuong",
+            "id": "dinhhuong"
+        },
+        "Policy":{
+            "name": "Chính Sách Quy Định",
+            "link": "/Chinhsachquydinh",
+            "id": "csqd"
+        },
+        "Contact":{
+            "name": "Liên Hệ",
+            "link": "/Lienhe",
+            "id": "lienhe"
+        }
+    },
+    "member":[
+        {
+            "name": "Mai Thế Hào",
+            "email": "anhchangnhanma167@gmail.com",
+            "lvl": "3",
+            "job": "Lập trình viên",
+            "nickName": null
+        },
+        {
+            "name": "Đỗ Thanh Tùng",
+            "email": "khangdo2140@gmail.com",
+            "lvl": "1",
+            "job": "Đại diện chính trị",
+            "nickName": null
+        },
+        {
+            "name": "Duy Trường",
+            "email": "truongst211ascii@gmail.com",
+            "lvl": "3",
+            "job": "Dân cư",
+            "nickName": null
+        },
+        {
+            "name": "Nguyễn Văn Kiện",
+            "email": "nkien240806@gmail.com",
+            "lvl": "3",
+            "job": "Nhà thông thái",
+            "nickName": null
+        },
+        { 
+            "name": "Dương Trung Tín",
+            "email": "trungtinduong25072006@gmail.com",
+            "lvl": "2",
+            "job": "Quản lí dân sự",
+            "nickName": null
+        },
+        {
+            "name": "Đặng Minh Văn",
+            "email": null,
+            "lvl": "2",
+            "job": "Quản lí hành chính",
+            "nickName": null
+        },
+        {
+            "name": "Nguyễn Anh Tuấn",
+            "email": null,
+            "lvl": "3",
+            "job": "Dân cư",
+            "nickName": null
+        }
+    ]
+
+}

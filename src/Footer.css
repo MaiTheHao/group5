@@ -1,0 +1,26 @@
+#web-footer{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    color: var(--fontColor1);
+    background-color: rgb(45, 45, 45);
+
+    padding: 1.5% 2%;
+
+    font-size: var(--fontsize);
+}
+
+#footer-left{
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-right{
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 10%;
+}
+
+#footer-right a{
+    color: var(--linkColor1);
+}

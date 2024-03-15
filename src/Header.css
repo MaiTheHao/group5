@@ -1,0 +1,99 @@
+#web-header {
+    display: grid;
+    grid-template-rows: 75% 25%;
+
+    font-size: var(--fontsize);
+}
+
+#web-header__content {
+    position: relative;
+
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    background-color: rgb(255, 255, 255);
+}
+
+#web-header__navbar {
+    position: relative;
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    background-color: lavender;
+
+    padding: 0 2%;
+
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+#web-header__navbar::-webkit-scrollbar {
+    height: 0.5vh;
+}
+
+#web-header__navbar::-webkit-scrollbar-track-piece {
+    background: rgb(81, 81, 81)
+}
+
+#web-header__navbar::-webkit-scrollbar-thumb {
+    background: rgb(186, 186, 186)
+}
+
+​.header-navbar__element {
+    position: relative;
+}
+
+.header-navbar__element+.header-navbar__element {
+    margin-left: 2%;
+}
+
+#header-left {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--headerLeftBg);
+    color: var(--headerLeftCl);
+}
+
+#header-left p+p {
+    margin-top: 2%;
+}
+
+#header-middle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-right a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header-right a:hover{
+    cursor: pointer;
+}
+
+#header-right a + a{
+    margin-left: 5%;
+}
+
+#right__VietNamFlag{
+    position: relative;
+    width: 15%;
+    height: max-content;
+
+    margin-right: 2%;
+}

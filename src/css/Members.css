@@ -1,0 +1,61 @@
+#Members {
+    position: relative;
+    width: 100%;
+    height: max-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: var(--fontsize);
+}
+
+#Members #page-title {
+    background-image: none;
+    background-color: rgb(255, 200, 207);
+    color: rgb(57, 57, 57);
+
+    margin-bottom: 2%;
+}
+
+#Members #page-title i {
+    color: rgb(255, 118, 94);
+    padding: 0 1%;
+    font-size: 0.6em;
+}
+
+#Members .Members__table {
+    position: relative;
+    width: 90%;
+    padding: 0.5% 0.5%;
+    border: 0.2vw solid rgb(115, 115, 115);
+
+    font-size: 1em;
+}
+
+#Members .Members__table + .Members__table{
+    margin-top: 1%;
+}
+
+#Members .Members__table h2{
+    background-color: rgb(255, 223, 223);
+    color: rgb(47, 47, 47);
+    font-weight: bold;
+    text-decoration: underline;
+
+    padding: 0.5% 2%;
+}
+#Members .Members__table table{
+    position: relative;
+    width: 100%;
+    padding: 0.5% 0%;
+}
+
+#Members .Members__table table thead{
+    background-color: rgb(174, 239, 255);
+    color: rgb(57, 57, 57);
+}
+#Members .Members__table table tbody{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}

@@ -1,13 +1,104 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{  
+    border: 0;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+    --headerHeight:8vw;
+    --bodyHeight:100vh;
+    --footerHeight:8vw;
+    --fontsize: 1vw;
+
+    --headerLeftBg: rgb(45, 45, 45);
+    --headerLeftCl: white;
+
+    --fontColor: rgb(37, 37, 37);
+    --fontColor1: white;
+    --linkColor: rgb(37, 37, 37);
+    --linkColor1: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 450px){
+
+}
+@media screen and (min-width: 450px){
+
+}
+@media screen and (min-width: 750px){
+
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#root{
+    position: relative;
+    width: 100vw;
+}
+
+#web-header{
+    position: relative;
+    height: var(--headerHeight);
+}
+
+#web-body{
+    position: relative;
+    min-height: var(--bodyHeight);
+    height: max-content;
+
+    font-size: var(--fontsize);
+}
+
+#web-footer{
+    position: relative;
+    height: max-content;
+}
+
+#page-title{
+    position: relative;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(45deg, rgb(79, 13, 78), rgb(61, 108, 191), rgb(79, 13, 78));
+    color: rgb(255, 255, 255);
+
+    border-radius: 0.5vw 0.5vw 0 0;
+
+    margin-top: 2%;
+    padding: 0.5% 0;
+}
+
+.active{
+    transition: opacity 0.2s, transform 0.2s;
+} 
+
+.active:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.active:active{
+    opacity: 1;
+    transform: scale(0.95);
+}
+
+.active.a-1:hover{
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+.active.a-1:active{
+    opacity: 1;
+    transform: scale(0.9);
+}
+
+a{
+    color: var(--linkColor)
 }

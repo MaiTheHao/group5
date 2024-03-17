@@ -2,7 +2,20 @@ import React from 'react';
 import { useState } from 'react';
 import "../css/Activities.css";
 
-function Activities(){
+function ShowActivity({act, count}){
+    return(
+        <tr>
+            <td>{count}</td>
+            <td>{act.name}</td>
+            <td>{act.content}</td>
+            <td>{act.creator}</td>
+            <td>{act.date}</td>
+            <td>{act.status}</td>
+        </tr>
+    )
+}
+
+function Activities({activities}){
     const [option, setOption] = useState("showBtn");
     const handleChangeOption = (id) => {
         setOption(id);
@@ -37,14 +50,7 @@ function Activities(){
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>0</td>
-                                <td>xnxx</td>
-                                <td>chơi gay</td>
-                                <td>Thanh Tùng</td>
-                                <td>16/03/2024</td>
-                                <td>Đang thực hiện</td>
-                            </tr>
+
                         </tbody>
                     </table>
                     

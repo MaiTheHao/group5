@@ -80,6 +80,29 @@
             "lvl": "3",
             "job": "Dân cư",
             "nickName": null
+        },
+        {
+            "name": "Nguyễn Hoàng Thuận",
+            "email": "0307thuannguyen@gmail.com",
+            "lvl": "3",
+            "job": "Nhà phân phối đề thi",
+            "nickName": "Trịnh Công Sơn"
+        }
+    ],
+    "activity":[
+        {
+            "name": "Giao lưu anh em",
+            "content": "Thực hiện giao lưu anh em trong Tổ 5, nâng cao nhận thức trách nhiệm về cuộc sống.",
+            "creator": "Thanh Tùng",
+            "date": "17/03/2024",
+            "status": "Đang thực hiện"
+        },
+        {
+            "name": "Thực hiện cúp học online",
+            "content": "Ae trốn học hội đồng.",
+            "creator": "Dương Trung Tín",
+            "date": "16/03/2025",
+            "status": "Đã hoàn thành"
         }
     ]
 

@@ -53,13 +53,12 @@ body{
     height: max-content;
 
     font-size: var(--fontsize);
+    padding-bottom: 3%;
 }
 
 #web-footer{
     position: relative;
     height: max-content;
-
-    margin-top: 3%;
 }
 
 #page-title{

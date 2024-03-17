@@ -13,6 +13,7 @@ import Footer from './Footer.js';
 import data from "./base.json"
 const pages = data["page"];
 const members = data["member"];
+const activities = data["activity"];
 
 const Pages=[
   {

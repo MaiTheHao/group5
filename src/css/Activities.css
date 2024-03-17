@@ -1,12 +1,10 @@
 #Activities{
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     font-size: var(--fontsize);
-
-    background-color: rgb(255, 197, 39);
 }
 
 #Activities #Header{
@@ -19,13 +17,14 @@
 
 #Activities #Header h1{
     color: var(--fontColor1);
+    padding: 0.5% 0;
 }
 
 #Activities #Header #Header__option{
     position: absolute;
     right: 0;
     width: 20%;
-    height: 80%;
+    height: 45%;
     display: grid;
     grid-template-columns: 30% 50%;
 
@@ -34,7 +33,7 @@
 
 #Activities #Header #Header__option button{
     cursor: pointer;
-    border-radius: calc(var(--fontsize)/2) !important;
+    border-radius: 1vw !important;
     font-size: 1em;
 }
 
@@ -61,7 +60,8 @@
 }
 
 #searchForm form{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(47, 47, 47);
+    border: 0.07vw solid rgb(0, 0, 0);
     position: relative;
     width: 30%;
     display: flex;
@@ -79,18 +79,19 @@
     justify-content: center;
     align-items: center;
 
-    font-size: 1.2em;
-    color: rgb(37, 37, 37);
+    font-size: 1.3em;
+    color: var(--fontColor1);
 }
 
 #searchActivities{
     position: relative;
-    width: 80%;
+    width: 85%;
     font-size: 1em;
+    color: var(--fontColor1);
 
     border-radius: 1vw;
     padding: 0.5%  2%;
-    background-color: transparent;
+    background-color: rgb(255, 255, 255);
 }
 
 #container{
@@ -115,49 +116,119 @@
     width: 70%;
 
     font-size: 1.2em;
-}
-#container-show table{
-    position: relative;
-    width: 70%;
-
-    font-size: 1.2em;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(75, 75, 75);
     color: var(--fontColor);
     margin-top: 1%;
 
     padding: 0.25% 0.5%;
-    border-radius: 0.5vw;
+    border-radius: 1vw;
 }
 
 #container-show table thead tr{
     position: relative;
-    background-color: rgb(147, 169, 255);
+    background-color: rgb(81, 136, 255);
     color: var(--fontColor1);
 }
 
 #container-show table thead tr th{
     position: relative;
-    padding: 0.25% 0%;
+    align-items: center;
 
     font-size: 1.1em;
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
+    padding: 0.5% 0;
 }
-
 
 #container-show table tbody tr td{
     position: relative;
     text-align: center;
 
+    color: var(--fontColor);
+
     font-size: 1em;
+    padding: 0.5% 1%;
 }
 
 #container-show table tbody tr{
     position: relative;
     text-align: center;
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(255, 255, 255);
     font-size: 1em;
 }
 
+#container-show table tfoot td{
+    position: relative;
+    background-color: rgb(120, 120, 120);
+    color: var(--fontColor1);
+
+    padding: 0.25% 0.5%;
+
+    text-align: center;
+}
 
 #container-update{
-    display: none;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2%;
+    font-size: 1em;
+}
+
+#update-block{
+    position: relative;
+    width: 80%;
+    height: max-content;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    background-color: rgb(132, 163, 255);
+
+    border-radius: 1vw;
+    font-size: 1em;
+}
+
+#updateOptions{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(90deg, rgb(81, 0, 255), rgb(108, 40, 255));
+    border-radius: 0 30% 30% 0;
+
+    padding: 0 5%;
+    font-size: 0.8em;
+}
+
+#update-description{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: rgb(255, 255, 255)
+}
+
+#update-description h3{
+    position: relative;
+    text-align: center;
+    font-size: 1.5em;
+    
+    margin-bottom: 5%;
+}
+
+#update-description p{
+    position: relative;
+    text-align: center;
+    font-size: 1em;
+    
+    margin-bottom: 3%;
 }

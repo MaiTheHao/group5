@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Introduce from "./component/Introduce.js";
 import Members from "./component/Members.js";
 import Activities from "./component/Activities.js";
-import Test from "./component/test.js";
 
 import Header from './Header.js';
 import Footer from './Footer.js';
@@ -25,7 +24,7 @@ const Pages=[
     path: pages["Members"].link
   },
   {
-    page: <Activities></Activities>,
+    page: <Activities activities={activities}></Activities>,
     path: pages["Activities"].link
   }
 ]

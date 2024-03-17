@@ -49,9 +49,9 @@ body{
 
 #web-body{
     position: relative;
-    min-height: var(--bodyHeight);
+    width: 100%;
     height: max-content;
-
+    
     font-size: var(--fontsize);
     padding-bottom: 3%;
 }

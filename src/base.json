@@ -95,14 +95,14 @@
             "content": "Thực hiện giao lưu anh em trong Tổ 5, nâng cao nhận thức trách nhiệm về cuộc sống.",
             "creator": "Thanh Tùng",
             "date": "17/03/2024",
-            "status": "Đang thực hiện"
+            "status": 0
         },
         {
             "name": "Thực hiện cúp học online",
             "content": "Ae trốn học hội đồng.",
             "creator": "Dương Trung Tín",
             "date": "16/03/2025",
-            "status": "Đã hoàn thành"
+            "status": 3
         }
     ]
 

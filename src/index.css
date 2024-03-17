@@ -5,11 +5,12 @@
     padding: 0;
 
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 :root{
     --headerHeight:8vw;
-    --bodyHeight:100vh;
+    --bodyHeight:90vh;
     --footerHeight:8vw;
     --fontsize: 1vw;
 
@@ -57,6 +58,8 @@ body{
 #web-footer{
     position: relative;
     height: max-content;
+
+    margin-top: 3%;
 }
 
 #page-title{

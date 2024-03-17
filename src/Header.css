@@ -39,8 +39,10 @@
     background: rgb(186, 186, 186)
 }
 
-​.header-navbar__element {
+.header-navbar__element{
     position: relative;
+    text-wrap: nowrap;
+    text-decoration: none;
 }
 
 .header-navbar__element+.header-navbar__element {

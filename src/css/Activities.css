@@ -1,0 +1,153 @@
+#Activities{
+    font-size: var(--fontsize);
+}
+
+
+
+#Activities #Header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(59, 59, 59);
+}
+
+#Activities #Header h1{
+    color: var(--fontColor1);
+}
+
+#Activities #Header #Header__option{
+    position: absolute;
+    right: 0;
+    width: 20%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 30% 50%;
+
+    font-size: 1em;
+}
+
+#Activities #Header #Header__option button{
+    cursor: pointer;
+    border-radius: calc(var(--fontsize)/2) !important;
+    font-size: 1em;
+}
+
+#Activities #Header #Header__option button + button{
+    margin-left: 5%;
+}
+
+#showBtn{
+    background-color: rgb(96, 255, 33);
+    color: var(--fontColor1)
+}
+
+#updateBtn{
+    background-color: rgb(255, 165, 63);
+    color: var(--fontColor1)
+}
+
+#searchForm{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchForm form{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.25% 0%;
+
+    border-radius: 1vw;
+}
+
+#searchForm form i{
+    position: relative;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.2em;
+    color: rgb(37, 37, 37);
+}
+
+#searchActivities{
+    position: relative;
+    width: 80%;
+    font-size: 1em;
+
+    border-radius: 1vw;
+    padding: 0.5%  2%;
+    background-color: transparent;
+}
+
+#container{
+    position: relative;
+}
+
+#container-show{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgb(255, 197, 39);
+
+    font-size: 0.8em;
+    padding: 1% 0;
+}
+
+#container-show table{
+    position: relative;
+    width: 70%;
+
+    font-size: 1.2em;
+}
+#container-show table{
+    position: relative;
+    width: 70%;
+
+    font-size: 1.2em;
+    background-color: rgb(255, 255, 255);
+    color: var(--fontColor);
+    margin-top: 1%;
+
+    padding: 0.25% 0.5%;
+    border-radius: 0.5vw;
+}
+
+#container-show table thead tr{
+    position: relative;
+    background-color: rgb(147, 169, 255);
+    color: var(--fontColor1);
+}
+
+#container-show table thead tr th{
+    position: relative;
+    padding: 0.25% 0%;
+
+    font-size: 1.1em;
+}
+
+
+#container-show table tbody tr td{
+    position: relative;
+    text-align: center;
+
+    font-size: 1em;
+}
+
+#container-show table tbody tr{
+    position: relative;
+    text-align: center;
+    background-color: rgb(219, 219, 219);
+    font-size: 1em;
+}

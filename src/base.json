@@ -2,7 +2,7 @@
     "page":{
         "Introduce":{
             "name": "Giới Thiệu",
-            "link": "/",
+            "link": "/Introduce",
             "id": "gioithieu"
         },
         "Members":{

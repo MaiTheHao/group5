@@ -35,9 +35,10 @@ function Controller(){
         <Header pages={Object.values(pages)}></Header>
         <div id="web-body">
           <Routes>
-          <Route index element={<Introduce></Introduce>} />
-            {Pages.map((p) => (
-              <Route key={p.path} path={p.path} element={p.page} />
+            <Route index element={<Introduce></Introduce>} />
+            <Route path="/group5" element={<Introduce></Introduce>} />
+            {Pages.map((p, index) => (
+              <Route key={index} path={p.path} element={p.page} />
             ))}
           </Routes>
         </div>

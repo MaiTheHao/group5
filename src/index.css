@@ -78,7 +78,7 @@ body{
 }
 
 .active{
-    transition: opacity 0.2s, transform 0.2s;
+    transition: opacity 0.2s, transform 0.1s;
 } 
 
 .active:hover{
@@ -103,4 +103,8 @@ body{
 
 a{
     color: var(--linkColor)
+}
+
+.box_shadow{
+    box-shadow: 0 0 1.5vw .25vw rgba(0, 0, 0, 0.34);
 }

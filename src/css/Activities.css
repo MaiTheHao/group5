@@ -295,14 +295,25 @@
 }
 
 #update-addform label span{
-    background-color: rgb(69, 69, 69);
+    background-color: rgb(18, 0, 92);
     color: var(--fontColor1);
     padding: 0.5% 2%;
 }
 
-#update-addform label input, #update-addform label select{
-    font-size: 1em;
-    padding: 0.5% 2%;
+#update-addform label input{
+    font-size: 0.8em;
+    padding: 1% 2%;
+    border-radius: 0 1vw 1vw 0;
+}
+
+#update-addform label #inputStatus{
+    position: relative;
+    width: 100%;
+
+    display: flex;
+    align-content: center;
+
+    background-color: rgb(255, 255, 255);
     border-radius: 0 1vw 1vw 0;
 }
 

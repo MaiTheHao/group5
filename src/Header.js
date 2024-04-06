@@ -42,8 +42,8 @@ const headerContent = {
             },
             {
                 icon: "fa-solid fa-comments",
-                text: "Feedback",
-                link: "#"
+                text: "Join",
+                link: "https://forms.gle/A4af7YbY6MHjToCn9"
             }
         ]
     }

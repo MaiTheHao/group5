@@ -1,7 +1,6 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
+import { useState} from 'react';
 import "../css/Activities.css";
-import { setSelectionRange } from '@testing-library/user-event/dist/utils';
 
 const statusKeys = {
     0: "Đang thực hiện",
@@ -120,13 +119,15 @@ function UpdateActivities(){
                         
                         <label className="updateForm__label" htmlFor='inputStatus'>
                             <span>Trạng thái</span>
-                            <select name="inputStatus" id="inputStatus">
-                                <option value="dangthuchien">Đang thực hiện</option>
-                                <option value="danglenkehoach">Đang lên kế hoạch</option>
-                                <option value="dangtrihoan">Đang trì hoãn</option>
-                                <option value="dahoanthanh">Đã hoàn thành</option>
-                                <option value="dahuy">Đã hủy</option>
-                            </select>
+                            <div id="inputStatus">
+                                <select name="inputStatus" id="inputStatus_select">
+                                    <option value="dangthuchien">Đang thực hiện</option>
+                                    <option value="danglenkehoach">Đang lên kế hoạch</option>
+                                    <option value="dangtrihoan">Đang trì hoãn</option>
+                                    <option value="dahoanthanh">Đã hoàn thành</option>
+                                    <option value="dahuy">Đã hủy</option>
+                                </select>
+                            </div>
                         </label>
                         <button type="submit" className="active">SUBMIT</button>
                     </form>
